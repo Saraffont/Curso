@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="externos">github</a></p> <!--A de ancora // Sempre usar target e rel para abrir uma nova guia no link // Sempre ideial abrir em outra aba quando o link não é do seu pr´prio site // Sempre importante indicar pela tag "rel" que o link é um link externo para o navegador-->
+    <p>Você tbm pode <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="externos">acessar meu canal</a></p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira pag do site, acesse a <a href="pag002.html" rel="next">segunda pag</a></p>
+    <p>Você tambem pode acessar as <a href="noticias/pag003.html" rel="next" target="_self">noticias</a></p> <!--(target="_self") é usado para abrir um link no mesmo guia, mas nao precisa pq isso já é automático-->
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="livro/livro/09 - Listas HTML.pdf" download target="_blank" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/livro.zip" download type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>
